@@ -1,3 +1,5 @@
+library(plyr)
+
 ##Download the zip file containing the data and unzip the data
 
 if(!file.exists("./CourseProject")){dir.create("./CourseProject")}
